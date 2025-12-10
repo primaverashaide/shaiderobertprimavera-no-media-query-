@@ -1,0 +1,75 @@
+.dp{
+    inline-size: 450px;
+    /* width: 20px; */
+}
+
+.greeting{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 5px;
+    margin-top: 50px;
+    /* border: #111111 solid; */
+}
+
+.greeting-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: red solid; */
+    
+}
+
+.greeting-1 img{
+    border-radius: 50%;
+    width: 450px;
+    place-items: center;
+}
+
+.greeting-2{
+    text-align: left;
+    /* border: blue solid; */
+    display: flex;
+    place-items: center;
+    width: 100%;
+
+  font-family: "Azeret Mono", monospace;
+  font-size: 45px;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.CV{
+    text-align: center;
+    height: 100px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* margin-bottom: 20px; */
+
+        font-family: "Azeret Mono", monospace;
+        font-size: 30px;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+
+}
+
+.content-container{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    column-gap: 5px;
+    row-gap: 25px;
+    text-align: center  ;
+        font-family: "Inconsolata", monospace;
+        /* inline-size: 40px; */
+        font-size: 40px;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+    margin-bottom: 250px;
+}
