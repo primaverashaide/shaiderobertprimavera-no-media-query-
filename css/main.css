@@ -1,0 +1,68 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    list-style-type: none;
+}
+
+html{
+    color-scheme: dark light;
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    /* margin: 25px; */
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+img, picture, svg, video{
+    display: block;
+    max-width: 100%;
+}
+
+img:not(.dp){
+    inline-size: 250px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 100vh;
+    margin: 5px;
+    border: 3px solid white;
+
+    /* border-width: 30px; */
+    /* border-color: white; */
+}
+
+/* main{
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+} */
+
+
+.content-header{
+
+        text-align: center;
+        font-family: "Azeret Mono", monospace;
+        font-size: 60px;
+        font-optical-sizing: auto;
+        font-weight: 350;
+        font-style: normal;
+}
+
+
+/* .topnav{
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 45px;
+        size: 100px;
+        font-optical-sizing: auto;
+        font-weight: 350;
+        font-style: normal;
+} */

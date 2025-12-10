@@ -1,0 +1,112 @@
+.testimonies-section{
+    margin: 15px;
+    margin-bottom: 150px;
+    /* background-color: rgb(114, 172, 172); */
+}
+
+.test-links{
+    font-size: 3vh;
+}
+
+.test-links ul li a{
+    color: white;
+}
+
+.test-name{
+    /* inline-size: 30vh; */
+    font-size: 24px;
+}
+
+
+
+.content-header{
+    text-align: center;
+}
+
+
+.testimonies-content-left{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    column-gap: 15px;
+
+    margin-left: 25px;
+
+}
+
+
+.profile-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.details-left{
+    align-self: center;
+    text-align: left;
+
+}
+
+.testimonies-content-right{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    column-gap: 15px;
+
+    margin-right: 25px;
+
+}
+
+.profile-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.details-right{
+    align-self: center;
+    text-align: right;
+
+}
+
+.test-details{
+    display:block;
+    align-content: center;
+}
+
+.test-image{
+    /* background-color: aqua; */
+    display: grid;
+    place-items: center;
+}
+
+.test-name{
+    /* background-color: green; */
+        font-family: "Azeret Mono", monospace;
+        font-size: 35px;
+        font-optical-sizing: auto;
+        font-weight: 350;
+        font-style: normal;
+    
+}
+
+.profession{
+    /* background-color: yellow; */
+                font-family: "Roboto", monospace;
+                font-size: 15px;
+                font-optical-sizing: auto;
+                font-weight: 350;
+                font-style: italic;
+}
+
+.test-comment{
+    /* background-color: violet; */
+                font-family: "Sora", monospace;
+                font-size: 20px;
+                font-optical-sizing: auto;
+                font-weight: 350;
+                font-style: normal;
+}
+
